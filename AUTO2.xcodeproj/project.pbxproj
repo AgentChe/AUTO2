@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE47901C2E1BF394006564A0 /* OLocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790192E1BF394006564A0 /* OLocaleView.swift */; };
+		DE47901D2E1BF394006564A0 /* LocaleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790112E1BF394006564A0 /* LocaleTabView.swift */; };
+		DE47901E2E1BF394006564A0 /* LocaleTableViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790152E1BF394006564A0 /* LocaleTableViewElement.swift */; };
+		DE47901F2E1BF394006564A0 /* LocaleTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790172E1BF394006564A0 /* LocaleTitleView.swift */; };
+		DE4790202E1BF394006564A0 /* LocaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790142E1BF394006564A0 /* LocaleTableViewCell.swift */; };
+		DE4790212E1BF394006564A0 /* LocaleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790132E1BF394006564A0 /* LocaleTableView.swift */; };
+		DE4790222E1BF394006564A0 /* LocaleTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4790102E1BF394006564A0 /* LocaleTabItemView.swift */; };
+		DE4790232E1BF394006564A0 /* OLocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47901A2E1BF394006564A0 /* OLocaleViewModel.swift */; };
+		DE47902F2E1BF428006564A0 /* LocaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47902C2E1BF428006564A0 /* LocaleViewController.swift */; };
+		DE4790302E1BF428006564A0 /* LocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47902B2E1BF428006564A0 /* LocaleView.swift */; };
+		DE4790312E1BF428006564A0 /* LocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47902D2E1BF428006564A0 /* LocaleViewModel.swift */; };
 		DE61538F2DDA4CE9009A9952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6153862DDA4CE9009A9952 /* Assets.xcassets */; };
 		DE6153912DDA4CE9009A9952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6153892DDA4CE9009A9952 /* LaunchScreen.storyboard */; };
 		DE6153A12DDA4D80009A9952 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6153992DDA4D80009A9952 /* Inter-Medium.otf */; };
@@ -114,7 +125,6 @@
 		DE6155E92DDA4D85009A9952 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154052DDA4D85009A9952 /* PlanViewController.swift */; };
 		DE6155EA2DDA4D85009A9952 /* StatsTableUnlockPremiumButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61546F2DDA4D85009A9952 /* StatsTableUnlockPremiumButtonCell.swift */; };
 		DE6155EB2DDA4D85009A9952 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153B82DDA4D85009A9952 /* Collection+Extension.swift */; };
-		DE6155EC2DDA4D85009A9952 /* LocaleTableViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154842DDA4D85009A9952 /* LocaleTableViewElement.swift */; };
 		DE6155ED2DDA4D85009A9952 /* OQuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61549E2DDA4D85009A9952 /* OQuizResultView.swift */; };
 		DE6155EE2DDA4D85009A9952 /* PaygateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154B42DDA4D85009A9952 /* PaygateView.swift */; };
 		DE6155EF2DDA4D85009A9952 /* GetCountriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155382DDA4D85009A9952 /* GetCountriesRequest.swift */; };
@@ -129,7 +139,6 @@
 		DE6155F82DDA4D85009A9952 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155522DDA4D85009A9952 /* Subject.swift */; };
 		DE6155F92DDA4D85009A9952 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154A62DDA4D85009A9952 /* OnboardingView.swift */; };
 		DE6155FA2DDA4D85009A9952 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61554C2DDA4D85009A9952 /* PurchaseValidationObserver.swift */; };
-		DE6155FB2DDA4D85009A9952 /* LocaleStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154882DDA4D85009A9952 /* LocaleStateView.swift */; };
 		DE6155FC2DDA4D85009A9952 /* TestBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154F82DDA4D85009A9952 /* TestBottomView.swift */; };
 		DE6155FD2DDA4D85009A9952 /* ReviewFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154492DDA4D85009A9952 /* ReviewFilterView.swift */; };
 		DE6155FE2DDA4D85009A9952 /* SubjectProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155782DDA4D85009A9952 /* SubjectProgress.swift */; };
@@ -146,7 +155,6 @@
 		DE6156092DDA4D85009A9952 /* FinishTestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61556D2DDA4D85009A9952 /* FinishTestRequest.swift */; };
 		DE61560A2DDA4D85009A9952 /* StepCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153F82DDA4D85009A9952 /* StepCollectionView.swift */; };
 		DE61560B2DDA4D85009A9952 /* OStudyModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61548F2DDA4D85009A9952 /* OStudyModeCell.swift */; };
-		DE61560C2DDA4D85009A9952 /* LocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61542A2DDA4D85009A9952 /* LocaleView.swift */; };
 		DE61560D2DDA4D85009A9952 /* TestStatsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155022DDA4D85009A9952 /* TestStatsFilter.swift */; };
 		DE61560E2DDA4D85009A9952 /* TestStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155132DDA4D85009A9952 /* TestStatsView.swift */; };
 		DE61560F2DDA4D85009A9952 /* ReviewDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154462DDA4D85009A9952 /* ReviewDataLoader.swift */; };
@@ -157,10 +165,8 @@
 		DE6156142DDA4D85009A9952 /* StudyModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61543A2DDA4D85009A9952 /* StudyModeViewController.swift */; };
 		DE6156152DDA4D85009A9952 /* GetTestsKitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155672DDA4D85009A9952 /* GetTestsKitResponse.swift */; };
 		DE6156162DDA4D85009A9952 /* SettingsAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154572DDA4D85009A9952 /* SettingsAppButton.swift */; };
-		DE6156172DDA4D85009A9952 /* LocaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61542B2DDA4D85009A9952 /* LocaleViewController.swift */; };
 		DE6156182DDA4D85009A9952 /* StepCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153F62DDA4D85009A9952 /* StepCollectionElement.swift */; };
 		DE6156192DDA4D85009A9952 /* OQuizSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61549F2DDA4D85009A9952 /* OQuizSolutionView.swift */; };
-		DE61561A2DDA4D85009A9952 /* LocaleCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154862DDA4D85009A9952 /* LocaleCountryView.swift */; };
 		DE61561B2DDA4D85009A9952 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153BF2DDA4D85009A9952 /* UITapGestureRecognizer+Extension.swift */; };
 		DE61561C2DDA4D85009A9952 /* OAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154952DDA4D85009A9952 /* OAgeView.swift */; };
 		DE61561D2DDA4D85009A9952 /* StatsTableUnlockPremiumFakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154702DDA4D85009A9952 /* StatsTableUnlockPremiumFakeCell.swift */; };
@@ -199,7 +205,6 @@
 		DE61563E2DDA4D85009A9952 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154E42DDA4D85009A9952 /* AVPlayerView.swift */; };
 		DE61563F2DDA4D85009A9952 /* OnboardingCombineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154932DDA4D85009A9952 /* OnboardingCombineData.swift */; };
 		DE6156402DDA4D85009A9952 /* QuestionsCountCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154C42DDA4D85009A9952 /* QuestionsCountCollectionView.swift */; };
-		DE6156412DDA4D85009A9952 /* LocaleLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154872DDA4D85009A9952 /* LocaleLanguageView.swift */; };
 		DE6156422DDA4D85009A9952 /* QuestionTableExplanationImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154EE2DDA4D85009A9952 /* QuestionTableExplanationImageCell.swift */; };
 		DE6156432DDA4D85009A9952 /* OExamsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61547E2DDA4D85009A9952 /* OExamsTable.swift */; };
 		DE6156442DDA4D85009A9952 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153B02DDA4D85009A9952 /* CircleView.swift */; };
@@ -275,13 +280,11 @@
 		DE61568A2DDA4D85009A9952 /* QuestionViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154DB2DDA4D85009A9952 /* QuestionViewerViewModel.swift */; };
 		DE61568B2DDA4D85009A9952 /* NumberLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153CD2DDA4D85009A9952 /* NumberLaunches.swift */; };
 		DE61568C2DDA4D85009A9952 /* SendAnswerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155692DDA4D85009A9952 /* SendAnswerRequest.swift */; };
-		DE61568D2DDA4D85009A9952 /* LocaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154832DDA4D85009A9952 /* LocaleTableViewCell.swift */; };
 		DE61568E2DDA4D85009A9952 /* PlanFinalStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155252DDA4D85009A9952 /* PlanFinalStep.swift */; };
 		DE61568F2DDA4D85009A9952 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154172DDA4D85009A9952 /* PracticeViewController.swift */; };
 		DE6156902DDA4D85009A9952 /* DateOfExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154272DDA4D85009A9952 /* DateOfExamViewController.swift */; };
 		DE6156912DDA4D85009A9952 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153D22DDA4D85009A9952 /* TextAttributes.swift */; };
 		DE6156922DDA4D85009A9952 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153D12DDA4D85009A9952 /* ScreenSize.swift */; };
-		DE6156932DDA4D85009A9952 /* LocaleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154822DDA4D85009A9952 /* LocaleTableView.swift */; };
 		DE6156942DDA4D85009A9952 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6155532DDA4D85009A9952 /* Test.swift */; };
 		DE6156952DDA4D85009A9952 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154362DDA4D85009A9952 /* MyProfileViewController.swift */; };
 		DE6156962DDA4D85009A9952 /* TestStatsAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61557A2DDA4D85009A9952 /* TestStatsAnswer.swift */; };
@@ -329,10 +332,8 @@
 		DE6156C02DDA4D85009A9952 /* SettingsTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61545E2DDA4D85009A9952 /* SettingsTableElement.swift */; };
 		DE6156C12DDA4D85009A9952 /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154372DDA4D85009A9952 /* MyProfileViewModel.swift */; };
 		DE6156C22DDA4D85009A9952 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6153B52DDA4D85009A9952 /* Spinner.swift */; };
-		DE6156C32DDA4D85009A9952 /* OLocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61549B2DDA4D85009A9952 /* OLocaleView.swift */; };
 		DE6156C42DDA4D85009A9952 /* StudyModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61543B2DDA4D85009A9952 /* StudyModeViewModel.swift */; };
 		DE6156C52DDA4D85009A9952 /* SettingsAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154592DDA4D85009A9952 /* SettingsAppCell.swift */; };
-		DE6156C62DDA4D85009A9952 /* LocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61542C2DDA4D85009A9952 /* LocaleViewModel.swift */; };
 		DE6156C72DDA4D85009A9952 /* ProfileTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61543E2DDA4D85009A9952 /* ProfileTabsView.swift */; };
 		DE6156C82DDA4D85009A9952 /* OCreatingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154972DDA4D85009A9952 /* OCreatingPlanView.swift */; };
 		DE6156C92DDA4D85009A9952 /* StatsPassRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6154682DDA4D85009A9952 /* StatsPassRateView.swift */; };
@@ -368,6 +369,17 @@
 /* Begin PBXFileReference section */
 		0DD2EECABB48B52D9AB4C42D /* Pods-AUTO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTO2.debug.xcconfig"; path = "Target Support Files/Pods-AUTO2/Pods-AUTO2.debug.xcconfig"; sourceTree = "<group>"; };
 		622B0E313B2240053B4EFAE3 /* Pods-AUTO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTO2.release.xcconfig"; path = "Target Support Files/Pods-AUTO2/Pods-AUTO2.release.xcconfig"; sourceTree = "<group>"; };
+		DE4790102E1BF394006564A0 /* LocaleTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTabItemView.swift; sourceTree = "<group>"; };
+		DE4790112E1BF394006564A0 /* LocaleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTabView.swift; sourceTree = "<group>"; };
+		DE4790132E1BF394006564A0 /* LocaleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableView.swift; sourceTree = "<group>"; };
+		DE4790142E1BF394006564A0 /* LocaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableViewCell.swift; sourceTree = "<group>"; };
+		DE4790152E1BF394006564A0 /* LocaleTableViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableViewElement.swift; sourceTree = "<group>"; };
+		DE4790172E1BF394006564A0 /* LocaleTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTitleView.swift; sourceTree = "<group>"; };
+		DE4790192E1BF394006564A0 /* OLocaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLocaleView.swift; sourceTree = "<group>"; };
+		DE47901A2E1BF394006564A0 /* OLocaleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLocaleViewModel.swift; sourceTree = "<group>"; };
+		DE47902B2E1BF428006564A0 /* LocaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleView.swift; sourceTree = "<group>"; };
+		DE47902C2E1BF428006564A0 /* LocaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewController.swift; sourceTree = "<group>"; };
+		DE47902D2E1BF428006564A0 /* LocaleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewModel.swift; sourceTree = "<group>"; };
 		DE61536D2DDA4CE4009A9952 /* AUTO2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUTO2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6153862DDA4CE9009A9952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6153872DDA4CE9009A9952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -474,9 +486,6 @@
 		DE6154262DDA4D85009A9952 /* DateOfExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfExamView.swift; sourceTree = "<group>"; };
 		DE6154272DDA4D85009A9952 /* DateOfExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfExamViewController.swift; sourceTree = "<group>"; };
 		DE6154282DDA4D85009A9952 /* DateOfExamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfExamViewModel.swift; sourceTree = "<group>"; };
-		DE61542A2DDA4D85009A9952 /* LocaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleView.swift; sourceTree = "<group>"; };
-		DE61542B2DDA4D85009A9952 /* LocaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewController.swift; sourceTree = "<group>"; };
-		DE61542C2DDA4D85009A9952 /* LocaleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewModel.swift; sourceTree = "<group>"; };
 		DE61542E2DDA4D85009A9952 /* MyProfilePropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfilePropertyCell.swift; sourceTree = "<group>"; };
 		DE61542F2DDA4D85009A9952 /* MyProfileResetProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileResetProgressCell.swift; sourceTree = "<group>"; };
 		DE6154312DDA4D85009A9952 /* MyProfileTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileTableElement.swift; sourceTree = "<group>"; };
@@ -534,12 +543,6 @@
 		DE61547E2DDA4D85009A9952 /* OExamsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OExamsTable.swift; sourceTree = "<group>"; };
 		DE61547F2DDA4D85009A9952 /* OExamsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OExamsTableCell.swift; sourceTree = "<group>"; };
 		DE6154802DDA4D85009A9952 /* OExamsTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OExamsTableElement.swift; sourceTree = "<group>"; };
-		DE6154822DDA4D85009A9952 /* LocaleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableView.swift; sourceTree = "<group>"; };
-		DE6154832DDA4D85009A9952 /* LocaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableViewCell.swift; sourceTree = "<group>"; };
-		DE6154842DDA4D85009A9952 /* LocaleTableViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleTableViewElement.swift; sourceTree = "<group>"; };
-		DE6154862DDA4D85009A9952 /* LocaleCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleCountryView.swift; sourceTree = "<group>"; };
-		DE6154872DDA4D85009A9952 /* LocaleLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleLanguageView.swift; sourceTree = "<group>"; };
-		DE6154882DDA4D85009A9952 /* LocaleStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleStateView.swift; sourceTree = "<group>"; };
 		DE61548A2DDA4D85009A9952 /* ODailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODailyView.swift; sourceTree = "<group>"; };
 		DE61548B2DDA4D85009A9952 /* OMotivationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMotivationCell.swift; sourceTree = "<group>"; };
 		DE61548C2DDA4D85009A9952 /* OPlanGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPlanGridView.swift; sourceTree = "<group>"; };
@@ -554,7 +557,6 @@
 		DE6154982DDA4D85009A9952 /* ODailyGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODailyGoalView.swift; sourceTree = "<group>"; };
 		DE6154992DDA4D85009A9952 /* ODetermingSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODetermingSkillView.swift; sourceTree = "<group>"; };
 		DE61549A2DDA4D85009A9952 /* OExamDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OExamDateView.swift; sourceTree = "<group>"; };
-		DE61549B2DDA4D85009A9952 /* OLocaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLocaleView.swift; sourceTree = "<group>"; };
 		DE61549C2DDA4D85009A9952 /* OMotivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMotivationView.swift; sourceTree = "<group>"; };
 		DE61549D2DDA4D85009A9952 /* OPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPlanView.swift; sourceTree = "<group>"; };
 		DE61549E2DDA4D85009A9952 /* OQuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OQuizResultView.swift; sourceTree = "<group>"; };
@@ -755,6 +757,55 @@
 				622B0E313B2240053B4EFAE3 /* Pods-AUTO2.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE4790122E1BF394006564A0 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				DE4790102E1BF394006564A0 /* LocaleTabItemView.swift */,
+				DE4790112E1BF394006564A0 /* LocaleTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		DE4790162E1BF394006564A0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE4790132E1BF394006564A0 /* LocaleTableView.swift */,
+				DE4790142E1BF394006564A0 /* LocaleTableViewCell.swift */,
+				DE4790152E1BF394006564A0 /* LocaleTableViewElement.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DE4790182E1BF394006564A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE4790122E1BF394006564A0 /* Tab */,
+				DE4790162E1BF394006564A0 /* TableView */,
+				DE4790172E1BF394006564A0 /* LocaleTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE47901B2E1BF394006564A0 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				DE4790182E1BF394006564A0 /* Views */,
+				DE4790192E1BF394006564A0 /* OLocaleView.swift */,
+				DE47901A2E1BF394006564A0 /* OLocaleViewModel.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		DE47902E2E1BF428006564A0 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				DE47902C2E1BF428006564A0 /* LocaleViewController.swift */,
+				DE47902D2E1BF428006564A0 /* LocaleViewModel.swift */,
+				DE47902B2E1BF428006564A0 /* LocaleView.swift */,
+			);
+			path = Locale;
 			sourceTree = "<group>";
 		};
 		DE6153642DDA4CE4009A9952 = {
@@ -1192,16 +1243,6 @@
 			path = DateOfExam;
 			sourceTree = "<group>";
 		};
-		DE61542D2DDA4D85009A9952 /* Locale */ = {
-			isa = PBXGroup;
-			children = (
-				DE61542A2DDA4D85009A9952 /* LocaleView.swift */,
-				DE61542B2DDA4D85009A9952 /* LocaleViewController.swift */,
-				DE61542C2DDA4D85009A9952 /* LocaleViewModel.swift */,
-			);
-			path = Locale;
-			sourceTree = "<group>";
-		};
 		DE6154302DDA4D85009A9952 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -1253,10 +1294,10 @@
 		DE61543D2DDA4D85009A9952 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
+				DE47902E2E1BF428006564A0 /* Locale */,
 				DE6154212DDA4D85009A9952 /* ConfirmReset */,
 				DE6154252DDA4D85009A9952 /* DailyGoal */,
 				DE6154292DDA4D85009A9952 /* DateOfExam */,
-				DE61542D2DDA4D85009A9952 /* Locale */,
 				DE6154382DDA4D85009A9952 /* MyProfile */,
 				DE61543C2DDA4D85009A9952 /* StudyMode */,
 			);
@@ -1476,33 +1517,11 @@
 			path = ExamsTable;
 			sourceTree = "<group>";
 		};
-		DE6154852DDA4D85009A9952 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				DE6154822DDA4D85009A9952 /* LocaleTableView.swift */,
-				DE6154832DDA4D85009A9952 /* LocaleTableViewCell.swift */,
-				DE6154842DDA4D85009A9952 /* LocaleTableViewElement.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		DE6154892DDA4D85009A9952 /* Locale */ = {
-			isa = PBXGroup;
-			children = (
-				DE6154852DDA4D85009A9952 /* TableView */,
-				DE6154862DDA4D85009A9952 /* LocaleCountryView.swift */,
-				DE6154872DDA4D85009A9952 /* LocaleLanguageView.swift */,
-				DE6154882DDA4D85009A9952 /* LocaleStateView.swift */,
-			);
-			path = Locale;
-			sourceTree = "<group>";
-		};
 		DE6154902DDA4D85009A9952 /* Atoms */ = {
 			isa = PBXGroup;
 			children = (
 				DE61547D2DDA4D85009A9952 /* CreatingPlan */,
 				DE6154812DDA4D85009A9952 /* ExamsTable */,
-				DE6154892DDA4D85009A9952 /* Locale */,
 				DE61548A2DDA4D85009A9952 /* ODailyView.swift */,
 				DE61548B2DDA4D85009A9952 /* OMotivationCell.swift */,
 				DE61548C2DDA4D85009A9952 /* OPlanGridView.swift */,
@@ -1532,6 +1551,7 @@
 		DE6154A52DDA4D85009A9952 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DE47901B2E1BF394006564A0 /* Locale */,
 				DE6154902DDA4D85009A9952 /* Atoms */,
 				DE6154922DDA4D85009A9952 /* Source */,
 				DE6154942DDA4D85009A9952 /* Utils */,
@@ -1541,7 +1561,6 @@
 				DE6154982DDA4D85009A9952 /* ODailyGoalView.swift */,
 				DE6154992DDA4D85009A9952 /* ODetermingSkillView.swift */,
 				DE61549A2DDA4D85009A9952 /* OExamDateView.swift */,
-				DE61549B2DDA4D85009A9952 /* OLocaleView.swift */,
 				DE61549C2DDA4D85009A9952 /* OMotivationView.swift */,
 				DE61549D2DDA4D85009A9952 /* OPlanView.swift */,
 				DE61549E2DDA4D85009A9952 /* OQuizResultView.swift */,
@@ -2475,7 +2494,6 @@
 				DE6155E92DDA4D85009A9952 /* PlanViewController.swift in Sources */,
 				DE6155EA2DDA4D85009A9952 /* StatsTableUnlockPremiumButtonCell.swift in Sources */,
 				DE6155EB2DDA4D85009A9952 /* Collection+Extension.swift in Sources */,
-				DE6155EC2DDA4D85009A9952 /* LocaleTableViewElement.swift in Sources */,
 				DE6155ED2DDA4D85009A9952 /* OQuizResultView.swift in Sources */,
 				DE6155EE2DDA4D85009A9952 /* PaygateView.swift in Sources */,
 				DE6155EF2DDA4D85009A9952 /* GetCountriesRequest.swift in Sources */,
@@ -2490,8 +2508,10 @@
 				DE6155F82DDA4D85009A9952 /* Subject.swift in Sources */,
 				DE6155F92DDA4D85009A9952 /* OnboardingView.swift in Sources */,
 				DE6155FA2DDA4D85009A9952 /* PurchaseValidationObserver.swift in Sources */,
-				DE6155FB2DDA4D85009A9952 /* LocaleStateView.swift in Sources */,
 				DE6155FC2DDA4D85009A9952 /* TestBottomView.swift in Sources */,
+				DE47902F2E1BF428006564A0 /* LocaleViewController.swift in Sources */,
+				DE4790302E1BF428006564A0 /* LocaleView.swift in Sources */,
+				DE4790312E1BF428006564A0 /* LocaleViewModel.swift in Sources */,
 				DE6155FD2DDA4D85009A9952 /* ReviewFilterView.swift in Sources */,
 				DE6155FE2DDA4D85009A9952 /* SubjectProgress.swift in Sources */,
 				DE6155FF2DDA4D85009A9952 /* SubjectsView.swift in Sources */,
@@ -2507,7 +2527,6 @@
 				DE6156092DDA4D85009A9952 /* FinishTestRequest.swift in Sources */,
 				DE61560A2DDA4D85009A9952 /* StepCollectionView.swift in Sources */,
 				DE61560B2DDA4D85009A9952 /* OStudyModeCell.swift in Sources */,
-				DE61560C2DDA4D85009A9952 /* LocaleView.swift in Sources */,
 				DE61560D2DDA4D85009A9952 /* TestStatsFilter.swift in Sources */,
 				DE61560E2DDA4D85009A9952 /* TestStatsView.swift in Sources */,
 				DE61560F2DDA4D85009A9952 /* ReviewDataLoader.swift in Sources */,
@@ -2518,10 +2537,8 @@
 				DE6156142DDA4D85009A9952 /* StudyModeViewController.swift in Sources */,
 				DE6156152DDA4D85009A9952 /* GetTestsKitResponse.swift in Sources */,
 				DE6156162DDA4D85009A9952 /* SettingsAppButton.swift in Sources */,
-				DE6156172DDA4D85009A9952 /* LocaleViewController.swift in Sources */,
 				DE6156182DDA4D85009A9952 /* StepCollectionElement.swift in Sources */,
 				DE6156192DDA4D85009A9952 /* OQuizSolutionView.swift in Sources */,
-				DE61561A2DDA4D85009A9952 /* LocaleCountryView.swift in Sources */,
 				DE61561B2DDA4D85009A9952 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				DE61561C2DDA4D85009A9952 /* OAgeView.swift in Sources */,
 				DE61561D2DDA4D85009A9952 /* StatsTableUnlockPremiumFakeCell.swift in Sources */,
@@ -2535,6 +2552,14 @@
 				DE6156252DDA4D85009A9952 /* StatsViewController.swift in Sources */,
 				DE6156262DDA4D85009A9952 /* TestType.swift in Sources */,
 				DE6156272DDA4D85009A9952 /* TestStatsViewController.swift in Sources */,
+				DE47901C2E1BF394006564A0 /* OLocaleView.swift in Sources */,
+				DE47901D2E1BF394006564A0 /* LocaleTabView.swift in Sources */,
+				DE47901E2E1BF394006564A0 /* LocaleTableViewElement.swift in Sources */,
+				DE47901F2E1BF394006564A0 /* LocaleTitleView.swift in Sources */,
+				DE4790202E1BF394006564A0 /* LocaleTableViewCell.swift in Sources */,
+				DE4790212E1BF394006564A0 /* LocaleTableView.swift in Sources */,
+				DE4790222E1BF394006564A0 /* LocaleTabItemView.swift in Sources */,
+				DE4790232E1BF394006564A0 /* OLocaleViewModel.swift in Sources */,
 				DE6156282DDA4D85009A9952 /* StatsView.swift in Sources */,
 				DE6156292DDA4D85009A9952 /* DailyGoalView.swift in Sources */,
 				DE61562A2DDA4D85009A9952 /* StepTests.swift in Sources */,
@@ -2560,7 +2585,6 @@
 				DE61563E2DDA4D85009A9952 /* AVPlayerView.swift in Sources */,
 				DE61563F2DDA4D85009A9952 /* OnboardingCombineData.swift in Sources */,
 				DE6156402DDA4D85009A9952 /* QuestionsCountCollectionView.swift in Sources */,
-				DE6156412DDA4D85009A9952 /* LocaleLanguageView.swift in Sources */,
 				DE6156422DDA4D85009A9952 /* QuestionTableExplanationImageCell.swift in Sources */,
 				DE6156432DDA4D85009A9952 /* OExamsTable.swift in Sources */,
 				DE6156442DDA4D85009A9952 /* CircleView.swift in Sources */,
@@ -2636,13 +2660,11 @@
 				DE61568A2DDA4D85009A9952 /* QuestionViewerViewModel.swift in Sources */,
 				DE61568B2DDA4D85009A9952 /* NumberLaunches.swift in Sources */,
 				DE61568C2DDA4D85009A9952 /* SendAnswerRequest.swift in Sources */,
-				DE61568D2DDA4D85009A9952 /* LocaleTableViewCell.swift in Sources */,
 				DE61568E2DDA4D85009A9952 /* PlanFinalStep.swift in Sources */,
 				DE61568F2DDA4D85009A9952 /* PracticeViewController.swift in Sources */,
 				DE6156902DDA4D85009A9952 /* DateOfExamViewController.swift in Sources */,
 				DE6156912DDA4D85009A9952 /* TextAttributes.swift in Sources */,
 				DE6156922DDA4D85009A9952 /* ScreenSize.swift in Sources */,
-				DE6156932DDA4D85009A9952 /* LocaleTableView.swift in Sources */,
 				DE6156942DDA4D85009A9952 /* Test.swift in Sources */,
 				DE6156952DDA4D85009A9952 /* MyProfileViewController.swift in Sources */,
 				DE6156962DDA4D85009A9952 /* TestStatsAnswer.swift in Sources */,
@@ -2690,10 +2712,8 @@
 				DE6156C02DDA4D85009A9952 /* SettingsTableElement.swift in Sources */,
 				DE6156C12DDA4D85009A9952 /* MyProfileViewModel.swift in Sources */,
 				DE6156C22DDA4D85009A9952 /* Spinner.swift in Sources */,
-				DE6156C32DDA4D85009A9952 /* OLocaleView.swift in Sources */,
 				DE6156C42DDA4D85009A9952 /* StudyModeViewModel.swift in Sources */,
 				DE6156C52DDA4D85009A9952 /* SettingsAppCell.swift in Sources */,
-				DE6156C62DDA4D85009A9952 /* LocaleViewModel.swift in Sources */,
 				DE6156C72DDA4D85009A9952 /* ProfileTabsView.swift in Sources */,
 				DE6156C82DDA4D85009A9952 /* OCreatingPlanView.swift in Sources */,
 				DE6156C92DDA4D85009A9952 /* StatsPassRateView.swift in Sources */,
