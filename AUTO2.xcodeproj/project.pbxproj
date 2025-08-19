@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1562D62E54577C00365C61 /* GetFinalTestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1562D52E54577C00365C61 /* GetFinalTestRequest.swift */; };
 		DE18FC562E252F3D008F207C /* FlashcardsTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18FC512E252F3D008F207C /* FlashcardsTopicsView.swift */; };
 		DE18FC572E252F3D008F207C /* FlashcardsTopicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18FC532E252F3D008F207C /* FlashcardsTopicsViewModel.swift */; };
 		DE18FC582E252F3D008F207C /* FlashcardsFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18FC412E252F3D008F207C /* FlashcardsFinishView.swift */; };
@@ -391,6 +392,7 @@
 /* Begin PBXFileReference section */
 		0DD2EECABB48B52D9AB4C42D /* Pods-AUTO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTO2.debug.xcconfig"; path = "Target Support Files/Pods-AUTO2/Pods-AUTO2.debug.xcconfig"; sourceTree = "<group>"; };
 		622B0E313B2240053B4EFAE3 /* Pods-AUTO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTO2.release.xcconfig"; path = "Target Support Files/Pods-AUTO2/Pods-AUTO2.release.xcconfig"; sourceTree = "<group>"; };
+		DE1562D52E54577C00365C61 /* GetFinalTestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFinalTestRequest.swift; sourceTree = "<group>"; };
 		DE18FC412E252F3D008F207C /* FlashcardsFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsFinishView.swift; sourceTree = "<group>"; };
 		DE18FC422E252F3D008F207C /* FlashcardsFinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsFinishViewController.swift; sourceTree = "<group>"; };
 		DE18FC442E252F3D008F207C /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
@@ -2315,6 +2317,7 @@
 				DE6155622DDA4D85009A9952 /* GetTestRequest.swift */,
 				DE6155632DDA4D85009A9952 /* GetTestResponseMapper.swift */,
 				DE6155642DDA4D85009A9952 /* QuestionMapper.swift */,
+				DE1562D52E54577C00365C61 /* GetFinalTestRequest.swift */,
 			);
 			path = GetTest;
 			sourceTree = "<group>";
@@ -2826,6 +2829,7 @@
 				DE6156802DDA4D85009A9952 /* SplashViewModel.swift in Sources */,
 				DE6156812DDA4D85009A9952 /* ReviewTableView.swift in Sources */,
 				DE6156822DDA4D85009A9952 /* QuestionMapper.swift in Sources */,
+				DE1562D62E54577C00365C61 /* GetFinalTestRequest.swift in Sources */,
 				DE6156832DDA4D85009A9952 /* QuestionTableExplanationTextCell.swift in Sources */,
 				DE6156842DDA4D85009A9952 /* TapAreaButton.swift in Sources */,
 				DE6156852DDA4D85009A9952 /* CoursesTableView.swift in Sources */,
@@ -2975,7 +2979,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2991,7 +2995,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.8;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.auto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3014,7 +3018,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -3030,7 +3034,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.8;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.auto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
